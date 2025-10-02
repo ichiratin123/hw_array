@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="white__board">
+        <form action="">
+          <label for="">Nhập Mảng:</label>
+          <input
+            type="number"
+            class="input__text"
+            id="input__form"
+            placeholder="Nhập số"
+          />
+          <button id="btn__input" type="button" onclick="b0()">Input</button>
+        </form>
+        <div class="result0">
+          Mảng đang có: <span class="result__div" id="start__array"></span>
+        </div>
+        <div class="result0">
+          Kết quả: <span class="result__div" id="result"></span>
+        </div>
+        <div class="hw">
+          <form action="">
+            <button type="button" id="btn1" onclick="b1()">
+              Tổng số dương
+            </button>
+          </form>
+          <form action="">
+            <button id="btn2" onclick="b2()">Đếm số dương</button>
+          </form>
+          <form action="">
+            <button id="btn3" onclick="b3()">Tìm số nhỏ nhất</button>
+          </form>
+          <form action="">
+            <button id="btn4" onclick="b4()">Tìm số dương nhỏ nhất</button>
+          </form>
+          <form action="">
+            <button id="btn5" onclick="b5()">Tìm số chẵn cuối cùng</button>
+          </form>
+          <form action="">
+            <div class="input__data">
+              <input
+                type="number"
+                class="input__text"
+                placeholder="Index 1"
+                id="index1"
+              />
+              <input
+                type="number"
+                class="input__text"
+                placeholder="Index 2"
+                id="index2"
+              />
+            </div>
+            <div><button id="btn6" onclick="b6()">Đổi chỗ</button></div>
+          </form>
+          <form action="">
+            <button id="btn7" onclick="b7()">Sắp xếp tăng dần</button>
+          </form>
+          <form action="">
+            <button id="btn8" onclick="b8()">Tìm số nguyên tố đầu tiên</button>
+          </form>
+          <form action="">
+            <button id="btn9" onclick="b9()">Đếm số nguyên</button>
+          </form>
+          <form action="">
+            <button id="btn10" onclick="b10()">
+              So sánh số lượng số âm và dương
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
